@@ -15,6 +15,13 @@ server:
     include-message: always
 
 spring:
+  cache:
+    type: redis
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: admin
+    
   datasource:
     url: jdbc:mysql://localhost:3306/RedisStudy?allowPublicKeyRetrieval=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
     username: root
