@@ -32,7 +32,7 @@ Ohlot! 확장에 가장 기본이 되는 Repository 입니다.
 
 해당 프로젝트에서 처리하지 않은 특정 요구사항들은 **ohlot-architecture-template**을 사용한 새로운 tempalte에서 설명할 것입니다.
 
-해당 내용의 기능 제공은 다음과 같습니다.
+기능 제공은 다음과 같습니다.
 
 ### Account
 
