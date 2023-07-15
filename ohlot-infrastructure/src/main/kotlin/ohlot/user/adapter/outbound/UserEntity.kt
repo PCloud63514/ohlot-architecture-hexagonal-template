@@ -1,11 +1,22 @@
 package ohlot.user.adapter.outbound
 
-import ohlot.user.model.*
+import ohlot.user.model.User
+import ohlot.user.model.UserNickname
+import ohlot.user.model.UserPublicId
+import ohlot.user.model.UserSecureId
+import ohlot.user.model.UserStateMessage
 import org.springframework.data.annotation.CreatedDate
 import org.springframework.data.annotation.LastModifiedDate
 import org.springframework.data.jpa.domain.support.AuditingEntityListener
 import java.time.LocalDateTime
-import javax.persistence.*
+import javax.persistence.Column
+import javax.persistence.Entity
+import javax.persistence.EntityListeners
+import javax.persistence.GeneratedValue
+import javax.persistence.GenerationType
+import javax.persistence.Id
+import javax.persistence.Index
+import javax.persistence.Table
 
 @EntityListeners(AuditingEntityListener::class)
 @Table(name = "OHLOT_USER",

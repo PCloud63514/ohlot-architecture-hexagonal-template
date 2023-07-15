@@ -5,7 +5,7 @@ import ohlot.user.model.UserPublicId
 import ohlot.user.model.UserSecureId
 import ohlot.user.port.outbound.UserPort
 import org.springframework.stereotype.Component
-import java.util.*
+import java.util.Optional
 
 @Component
 internal class UserAdapter(
